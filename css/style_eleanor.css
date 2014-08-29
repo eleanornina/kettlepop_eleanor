@@ -1,0 +1,11 @@
+body {
+	min-width: 360px !important;
+}
+
+.hide {
+	display: none!important;
+}
+
+.feat_content {
+	padding: 10px auto 40px;
+}
