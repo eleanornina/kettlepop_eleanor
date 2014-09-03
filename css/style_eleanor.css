@@ -1,5 +1,20 @@
+@font-face {
+	font-family: "Proxima Nova";
+	src: url('../fonts/ProximaNova-Bold.otf');
+}
+
 body {
 	min-width: 360px !important;
+}
+
+#content {
+	max-width: 970px !important;
+	margin: 0 auto;
+}
+
+.box:not(:last-child) img {
+	padding-right: 25px;
+	border-right: 1px solid rgba(0,0,0,0.25);
 }
 
 .hide {
@@ -7,5 +22,58 @@ body {
 }
 
 .feat_content {
-	padding: 10px auto 40px;
+	margin-bottom: 34px;
+}
+
+hr.large {
+	border: 0;
+	height: 10px;
+	background-color: rgb(203, 183, 137);
+	margin: 30px 0px;
+}
+
+hr.med {
+	border: 0;
+	height: 3px;
+	background-color: rgb(203, 183, 137);
+	margin: 30px 0px;
+}
+
+.box {
+	padding: 0px !important;
+}
+
+.feat {
+	border-bottom: 3px solid rgb(203, 183, 137);
+	margin-bottom: 27px;
+}
+
+p.caption {
+	font-family: "Proxima Nova", sans-serif!important;
+	text-transform: uppercase;
+	font-size: 11pt;
+	margin: 15px 0px !important;
+}
+
+p.caption span.brown {
+	color: rgb(203, 183, 137);
+	display: inline-block;
+}
+
+.col-4:not(:last-child) {
+	width: 225px !important;
+}
+
+[class*='col-']:not(:last-child) {
+	margin-right: 25px !important;
+}
+
+[class*='col-']:not(:first-child) {
+	margin-left: 5px !important;
+}
+
+.wd {
+	height: 28px;
+	width: 28px;
+	margin:  0px auto 50px;
 }
